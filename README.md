@@ -1,12 +1,11 @@
 # JENEVEV Nail Studio
 
-Rebuilt from scratch as a responsive single-page cosmic nail studio concept.
+Editorial cosmic-inspired one-page site with original vector-illustration assets and mobile-responsive CSS.
 
-## Booking
-The appointment form currently prepares a copyable request. A studio contact and server-side approval system must be configured before it can deliver and manage bookings.
+Cloudflare Pages is linked to GitHub `main`, with an empty build command and `.` output directory.
 
-## Deployment
-Static site: publish repository root with GitHub Pages or Cloudflare Pages (no build command).
+## Booking status
+The form currently creates a copyable appointment request, not a confirmed booking. A real booking approval service has not been configured.
 
-## Imagery
-External Unsplash images used as temporary inspiration placeholders; replace with licensed original studio photography before launch.
+## Assets
+`assets/hero-art.svg` and `assets/observatory.svg` are original in-repo illustrations. External Unsplash images in the gallery are placeholders, not client portfolio photos.
