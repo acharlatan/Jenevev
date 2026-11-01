@@ -1,11 +1,5 @@
-# JENEVEV Nail Studio
+# Orbit Nail Studio
 
-Editorial cosmic-inspired one-page site with original vector-illustration assets and mobile-responsive CSS.
+A static, responsive Orbit Nail Studio concept page based on the supplied visual reference. Cloudflare Pages serves the repository root without a build step.
 
-Cloudflare Pages is linked to GitHub `main`, with an empty build command and `.` output directory.
-
-## Booking status
-The form currently creates a copyable appointment request, not a confirmed booking. A real booking approval service has not been configured.
-
-## Assets
-`assets/hero-art.svg` and `assets/observatory.svg` are original in-repo illustrations. External Unsplash images in the gallery are placeholders, not client portfolio photos.
+The gallery and illustrations use concept imagery. The visit form creates a copyable draft in the browser; it does not send a request, check availability, or make a booking. No studio contact, availability, or social accounts have been configured.
