@@ -30,7 +30,7 @@ document.querySelectorAll('[data-service]').forEach(button => {
 
 document.querySelector('#booking-form').addEventListener('submit', event => {
   event.preventDefault();
-  const lines = ['ORBIT NAIL STUDIO — VISIT DRAFT', `Service: ${service.value}`];
+  const lines = ['JENEVEV — VISIT DRAFT', `Service: ${service.value}`];
   if (date.value) {
     const [year, month, day] = date.value.split('-').map(Number);
     lines.push(`Preferred date: ${new Date(year, month - 1, day).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })}`);
