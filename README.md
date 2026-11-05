@@ -8,13 +8,8 @@ The heart portrait uses an AI-enhanced version of the supplied photograph. Nail 
 
 Visitors can choose a service, appointment type, preferred date and time, review the plan, save or delete it in this browser's local storage, and copy or download a summary. A saved plan **is not sent or confirmed and does not reserve a slot**. No contact method or backend is configured. Only save and load are local to the visitor's device; changing or clearing browser data may remove the saved plan. To accept actual appointments, configure a real contact destination and reliable booking backend or service, then update the interface and privacy notice.
 
-## Deploy
+## Build and deploy
 
-The existing `jenevev` Cloudflare Worker serves `index.html` at `/`, `/services`, `/lookbook`, `/about`, `/faq`, and `/book`. With Node 20+ set `CLOUDFLARE_ACCOUNT_ID` and a Worker-edit scoped `CLOUDFLARE_API_TOKEN`, then run:
+Cloudflare Builds follows the GitHub `main` branch. The `node build.mjs` command generates the static files for the homepage and each supported page, so direct links and refreshes work. Cloudflare deploys `dist/` using its existing build pipeline.
 
-```
-node deploy.mjs --check
-node deploy.mjs
-```
-
-The script stores no credentials and deploys only the `jenevev` Worker. A GitHub update alone does not automatically publish this project.
+To verify the build locally, run `node build.mjs`. The optional `node deploy.mjs --check` checks the alternate direct Worker deploy script; `node deploy.mjs` requires Node 20+, `CLOUDFLARE_ACCOUNT_ID`, and a Worker-edit scoped `CLOUDFLARE_API_TOKEN`. The script stores no credentials and deploys only the `jenevev` Worker.
