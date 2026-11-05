@@ -2,7 +2,7 @@
 
 Responsive pages for Jenevev's independent nail service: home, services, lookbook, about, FAQ and booking planner. `index.html` contains the page markup, styling, code and optimized images. The Worker serves that same file for each supported route. No runtime libraries or external image hosts are required.
 
-The heart portrait uses the supplied photograph. Nail art images are AI-generated inspiration, not photographs of Jenevev's work. Replace them with her own work when available. Services, rates, travel areas and availability need to be confirmed with Jenevev.
+The heart portrait uses an AI-enhanced version of the supplied photograph. Nail art images are AI-generated inspiration, not photographs of Jenevev's work. Replace them with her own work when available. Services, rates, travel areas and availability need to be confirmed with Jenevev.
 
 ## Booking planner
 
